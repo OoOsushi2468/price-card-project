@@ -1,0 +1,138 @@
+html {
+  background: #D3D3D3;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 800px;
+  height: 600px;
+  font-family: 'Karla', sans-serif;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#box {
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.35);
+  border-radius:5px;
+  overflow:hidden;
+}
+
+#top-section {
+  padding:50px;
+  padding-top:30px;
+  width: 100%;
+  height: 45%;
+  background: white;
+}
+
+#top-section h2{
+  color:#2ab2af;
+  padding-bottom:10px;
+}
+
+#top-section h4{
+  color:#c0df34;
+}
+
+#top-section p{
+  color:#98a6bd;
+  padding-bottom:5px;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 55%;
+}
+
+#bottom-left {
+  padding:50px;
+  padding-top:30px;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: #2ab2af;
+  vertical-align: top;
+}
+
+#bottom-left h3{
+  color:white;
+}
+
+#price-box{
+  display:inline-block;
+}
+
+#price-box h1{
+  color:white;
+}
+
+#bottom-left > p{
+  margin-top:10px;
+  color:white;
+  opacity:0.9;
+}
+
+#subscription-period{
+  display:inline-block;
+  vertical-align:baseline;
+  vertical-align:5px;
+}
+
+#subscription-period p{
+  color: rgb(255,255,255);
+  opacity: 0.7;
+  margin-left:7px;
+}
+
+button{
+  background: #c0df34;
+  content-align:middle;
+  width:100%;
+  color:white;
+  border-radius:5px;
+  border:none;
+  padding:15px;
+  margin-top:50px;
+  font-size:18px;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale(1.02);
+}
+
+#bottom-right {
+  padding:50px;
+  padding-top:30px;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: #2EBFBD;
+}
+
+#bottom-right h3{
+  color:white;
+}
+
+#bottom-right ul{
+  list-style:none;
+  mmargin:0;
+  padding:0;
+  color:white;
+  opacity:0.6;
+  line-height:25px;
+  
+}
